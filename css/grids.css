@@ -1,38 +1,3 @@
-/*
-.grid{
-	background-color: yellow;
-	overflow: hidden;
-}
-
-.units{
-	float: left;
-	background-color: red;
-}
-
-.units:nth-child(odd) {
-	background-color: hotpink;
-}
-
-.s-1{
-	width: 100%;
-}
-
-@media only screen and (min-width: 38em){
-
-	.m-1-3{
-		width: 33.3333%;
-	}
-}
-
-@media only screen and (min-width: 60em){
-
-	.l-1-3{
-		width: 33.3333%;
-	}
-}
-
-/*
-
 /* http://gridifier.web-dev.tools/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1 */
 
 .grid {

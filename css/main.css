@@ -12,11 +12,25 @@ body{
 }
 
 .gutter{
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+	padding: 1rem;
 }
 
 .img-flex{
 	width: 100%;
 	display: block;
+}
+
+ol{
+	display: inline-block;
+	padding: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+
+header {
+  background-color: grey;
 }
