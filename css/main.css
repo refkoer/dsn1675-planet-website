@@ -25,8 +25,11 @@ ol{
 	padding: 0;
 }
 
+a{
+	text-decoration: none;
+}
+
 li {
-  text-decoration: none;
   list-style: none;
   display: inline-block;
 }
@@ -46,6 +49,6 @@ h1{
 @media only and(min-width: 24em){
 
 	h1{
-		text-align: none;
+
 	}
 }
