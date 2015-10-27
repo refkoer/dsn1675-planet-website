@@ -38,17 +38,5 @@ header {
   background-color: grey;
 }
 
-@media only and(min-width: 20em;){
 
-}
 
-h1{
-	text-align: center;
-}
-
-@media only and(min-width: 24em){
-
-	h1{
-
-	}
-}
