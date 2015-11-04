@@ -12,7 +12,7 @@ body{
 }
 
 .gutter{
-	margin-top: 1rem;
+	margin-left: 1rem;
 }
 
 .img-flex{
@@ -27,6 +27,9 @@ ol{
 
 a{
 	text-decoration: none;
+	color: #1579db;
+	font-size: 1.2rem;
+	padding: .5em;
 }
 
 li {
@@ -35,13 +38,60 @@ li {
 }
 
 header {
-  background-color: grey;
+  background-color: #cbcbcb;
 }
 
 footer{
-	background-color: grey
+	background-color: #cbcbcb;
 }
 
-.1{
-	color:	#e2e2e2;
+.bgc{
+	background-color:	#e2e2e2;
+}
+
+.bgc2{
+	background-color: #eeeeee;
+}
+
+a:hover{
+	background-color: #1579db; 
+	color: white;
+	padding: .5em;
+}
+
+
+h2{
+	text-align: center; 
+}
+
+
+
+dd{
+	margin: 0;
+	font-size: 1.2em;
+	padding-bottom:1rem;
+}
+
+dt{
+	padding-top: .5rem;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  @media only screen and (min-width: 38em) {
+
+  .title,
+  .nav {
+    text-align: left;
+  }
+
 }
