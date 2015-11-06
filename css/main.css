@@ -31,6 +31,7 @@ li {
 	list-style-type: none;
 	text-decoration: none;
 	padding: .5rem;
+  display: inline-block;
 }
 
 header {
@@ -74,6 +75,10 @@ dt{
 	padding-top: .5rem;
 }
 
+.foot{
+  padding-left: .5rem;
+}
+
 @media only screen and (min-width: 25em) {
 
 	.title,
@@ -87,6 +92,9 @@ dt{
 
 }
 
+  .list-group-inline{
+    display: inline-block;
+  }
 
 @media only screen and (min-width: 38em) {
 
