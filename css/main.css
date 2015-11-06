@@ -12,7 +12,7 @@ body{
 }
 
 .gutter{
-	margin-left: .3rem;
+	margin: 1rem;
 }
 
 .img-flex{
@@ -30,7 +30,7 @@ a{
 li {
 	list-style-type: none;
 	text-decoration: none;
-	padding: 1rem;
+	padding: .5rem;
 }
 
 header {
@@ -85,10 +85,32 @@ dt{
     display: inline-block;
   }
 
-  @media only screen and (min-width: 38em) {
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
   .nav {
     text-align: left;
   }
 
+
+  h1{
+  	text-align: left;
+
+  	padding-left: .5rem;
+  }
+
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
